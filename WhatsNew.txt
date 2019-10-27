@@ -1,0 +1,49 @@
+node is runtime enviroment of javascript and nodejs is not programming language and not framework
+build on the v8 javascript engine
+working :node uses single thread to execute multiple request asycronously 
+supports concurrency via events and callbacks
+why use node
+
+event driven , non blocking i/o model
+great for prototyping and agile development 
+superfast and high scalable 
+javascript everywhere 
+cleaner and more consistent codebase
+large ecosystem of open source libs
+
+best type of projects for node
+
+1) RestApi and microprocess
+2) real time services (chat , live updates)
+3) CRUD APPS - blogs , shopping carts , social network
+4) tool and utilities
+
+not use for cpu intensive related application
+
+1) install 3rd package (frameworks, library , tools)
+2) package get stored in mode_modules
+3) all dependencie are listed in package.json file
+4) NPM scripts can be created to run certain to run certain task such as a run server
+
+npm init --> generate a package.json
+npm install express install a package locally
+npm install -g nodemon install a package globally
+
+1) first program
+->
+	1) npm init
+	2) npm install uuid
+	3) npm install -d nodemon
+	4) delete the npm module folder bcoz it contain some dependacy
+	5) npm install 
+	6) to run file -> npm filename 
+
+node module system
+
+1) open system 
+2) file system
+3) events
+4) http
+
+
+

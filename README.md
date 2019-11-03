@@ -20,17 +20,17 @@ node uses a single thread to execute multiple requests asynchronously supports c
 * cleaner and more consistent codebase
 * large ecosystem of open source libs
 
-> ### best type of projects for node
+> ### Best type of projects for Node-js
 
-1. RestApi and microprocess
-2. real-time services (chat, live updates)
-3. CRUD APPS - blogs, shopping carts, social network
-4. tool and utilities
+* RestApi and microprocess
+* real-time services (chat, live updates)
+* CRUD APPS - blogs, shopping carts, social network
+* tool and utilities
 
-> ### Not use for cpu intensive related application
+> ### Basic view
 
 1. install a 3rd package (frameworks, library, tools)
-2. package get stored in mode_modules
+2. package get stored in node_modules
 3. all dependencies are listed in package.json file
 4. NPM scripts can be created to run certain to run certain task such as a run server
 
@@ -56,9 +56,10 @@ node uses a single thread to execute multiple requests asynchronously supports c
    ```sh
    $ npm filename 
    ```
+
 > ### Node module system
 
-1. open system 
-2. file system
-3. events
-4. http
+1. Open system 
+2. File system
+3. Events
+4. Http
